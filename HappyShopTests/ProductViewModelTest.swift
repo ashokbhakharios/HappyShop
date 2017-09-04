@@ -35,10 +35,10 @@ class ProductViewModelTest: XCTestCase {
         
         model.getProductDetails({[weak self] (success) in
             XCTAssertNotNil(self?.model.productDetails, "Not able to get product details")
-            exp?.fulfill()
-        }) {(error) in
+            self?.exp?.fulfill()
+        }) {[weak self](error) in
             XCTAssertNil(error, "error in pagination")
-            exp?.fulfill()
+            self?.exp?.fulfill()
         }
         
         self.waitForExpectations(timeout: 30.0) { (error) in
