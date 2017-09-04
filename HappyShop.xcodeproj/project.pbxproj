@@ -43,6 +43,10 @@
 		AA66E8A01F5C624F007AEBCB /* CartTable+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E89E1F5C624F007AEBCB /* CartTable+CoreDataClass.swift */; };
 		AA66E8A11F5C624F007AEBCB /* CartTable+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E89F1F5C624F007AEBCB /* CartTable+CoreDataProperties.swift */; };
 		AA66E8A31F5C71CC007AEBCB /* CoreDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E8A21F5C71CC007AEBCB /* CoreDataHandler.swift */; };
+		AA66E8A71F5C8211007AEBCB /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E8A61F5C8211007AEBCB /* HomeViewModelTest.swift */; };
+		AA66E8A91F5CF61C007AEBCB /* ProductServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E8A81F5CF61C007AEBCB /* ProductServiceTest.swift */; };
+		AA66E8AB1F5CF8C2007AEBCB /* CategoryViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E8AA1F5CF8C2007AEBCB /* CategoryViewModelTest.swift */; };
+		AA66E8AD1F5CF8D3007AEBCB /* ProductViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA66E8AC1F5CF8D3007AEBCB /* ProductViewModelTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,10 @@
 		AA66E89E1F5C624F007AEBCB /* CartTable+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartTable+CoreDataClass.swift"; sourceTree = "<group>"; };
 		AA66E89F1F5C624F007AEBCB /* CartTable+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CartTable+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		AA66E8A21F5C71CC007AEBCB /* CoreDataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHandler.swift; sourceTree = "<group>"; };
+		AA66E8A61F5C8211007AEBCB /* HomeViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		AA66E8A81F5CF61C007AEBCB /* ProductServiceTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductServiceTest.swift; sourceTree = "<group>"; };
+		AA66E8AA1F5CF8C2007AEBCB /* CategoryViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewModelTest.swift; sourceTree = "<group>"; };
+		AA66E8AC1F5CF8D3007AEBCB /* ProductViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewModelTest.swift; sourceTree = "<group>"; };
 		B6F5D5325477CDC18399D463 /* Pods-HappyShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyShop/Pods-HappyShop.release.xcconfig"; sourceTree = "<group>"; };
 		D81DA759E8997994E2E8E228 /* Pods-HappyShopUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyShopUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HappyShopUITests/Pods-HappyShopUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DB5543580E0DE9F8C3D82FE0 /* Pods_HappyShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -204,6 +212,10 @@
 			isa = PBXGroup;
 			children = (
 				AA41012F1F5AE8BD002C7685 /* HappyShopTests.swift */,
+				AA66E8A61F5C8211007AEBCB /* HomeViewModelTest.swift */,
+				AA66E8A81F5CF61C007AEBCB /* ProductServiceTest.swift */,
+				AA66E8AA1F5CF8C2007AEBCB /* CategoryViewModelTest.swift */,
+				AA66E8AC1F5CF8D3007AEBCB /* ProductViewModelTest.swift */,
 				AA4101311F5AE8BD002C7685 /* Info.plist */,
 			);
 			path = HappyShopTests;
@@ -642,7 +654,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA66E8AB1F5CF8C2007AEBCB /* CategoryViewModelTest.swift in Sources */,
 				AA4101301F5AE8BD002C7685 /* HappyShopTests.swift in Sources */,
+				AA66E8A91F5CF61C007AEBCB /* ProductServiceTest.swift in Sources */,
+				AA66E8A71F5C8211007AEBCB /* HomeViewModelTest.swift in Sources */,
+				AA66E8AD1F5CF8D3007AEBCB /* ProductViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

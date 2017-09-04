@@ -13,7 +13,7 @@ class HomeViewModel: NSObject {
     var categoryList = Array<String>()
     
     func getCategoryList() -> Array<String>{
-        categoryList = ["Makeup", "Skincare", "Nails", "Tools", ""]
+        categoryList = ["Makeup", "Skincare", "Nails", "Tools"]
         return categoryList
     }
 }
